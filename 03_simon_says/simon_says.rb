@@ -19,8 +19,8 @@ def start_of_word(blah, num)
   blah[0..num-1]
 end
 
-def first_word(string)
-  array = string.split
+def first_word(say)
+  array = say.split
   array[0]
 end
 
